@@ -1,0 +1,182 @@
+
+.social
+{
+    width: 25%;
+    float: left;
+    padding: 14px;
+
+}
+
+.second {
+    float: left;
+    width: 50%;
+    color: white;
+
+
+  }
+  .donor
+  {
+      float: left;
+      padding: 15px;
+  }
+  .row
+  {
+    background-color: rgb(28, 28, 190);
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  i
+  {
+      color: white;
+      padding: 4px;
+  }
+
+  /*Navigation Part*/
+  .logo
+  {
+      float: left;
+      background-color: rgb(235, 235, 235);
+  }
+  .navbar
+  {
+    background-color: rgb(235, 235, 235);
+  }
+  .nav
+  {
+      width: auto;
+      float: right;
+      background-color: rgb(235, 235, 235);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(235, 235, 235);
+  }
+  
+  li {
+    float: left;
+    padding: 13px;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+  }
+
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    color: white;
+    background-color: rgb(15, 41, 192);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #record
+{
+  background-color: black;
+}
+.parts
+{
+  background-color: blue;
+  color: #f1f1f1;
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.box
+{
+  box-shadow: 0 0 7px rgb(214, 212, 212);
+  float: left;
+  margin-left: 1%;
+  margin-top: 19px;
+  width: 30%;
+  height: 180px;
+  padding:10px;
+  background-color: rgb(241, 240, 240);
+  text-align: center;
+}
+
+.projects
+{
+  width: 65%;
+  float: left;
+  margin-bottom: 30px;
+}
+.events
+{
+  width: 35%;
+  float: right;
+}
+.projectbox
+{
+  float: left;
+  margin-left: 2%;
+  padding: 8px;
+  width: 43%;
+  height: auto;
+  background-color: rgb(241, 240, 240);
+  text-align: center;
+}
+.gallery
+{
+  margin-top: 12px;
+  float: left;
+  width: 100%;
+}
+.footer
+{
+  background-color: rgb(28, 28, 190);
+}
+/* Clear floats after the columns */
+#footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.foot
+{
+  float: left;
+  width: 33.33%;
+  height: 240px;
+  background-color: rgb(32, 32, 32);
+  color: #f1f1f1;
+}
